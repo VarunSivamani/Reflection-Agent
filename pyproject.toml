@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "reflection-agent"
+version = "0.1.0"
+description = ""
+authors = ["VarunSivamani <varunsivamani@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langgraph = "^0.2.60"
+langchain-community = "^0.3.13"
+langchain-openai = "^0.2.14"
+python-dotenv = "^1.0.1"
+black = "^24.10.0"
+isort = "^5.13.2"
+langchain-huggingface = "^0.1.2"
+grandalf = "^0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
